@@ -20,7 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let vc = ViewController()
         vc.title = "xx"
         let nav = UINavigationController(rootViewController: vc)
-        nav.delegate = TransionTool.share
+        
+        
+        let tool = TransionTool.share
+        tool.animType = .transionAnim
+        tool.duration = 0.8
+        nav.delegate = tool
+        
+        
         
         let tabC = UITabBarController()
         tabC.viewControllers = [nav,nav]
