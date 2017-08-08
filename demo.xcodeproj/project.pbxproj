@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F914B70D1F39906200F26363 /* CALayer+CPCTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914B7061F39906200F26363 /* CALayer+CPCTransition.swift */; };
+		F914B70E1F39906200F26363 /* CPCBaseVCTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914B7071F39906200F26363 /* CPCBaseVCTransition.swift */; };
+		F914B70F1F39906200F26363 /* CPCFlipTransion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914B7081F39906200F26363 /* CPCFlipTransion.swift */; };
+		F914B7101F39906200F26363 /* CPCPercentDriven.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914B7091F39906200F26363 /* CPCPercentDriven.swift */; };
+		F914B7111F39906200F26363 /* CPCTransionAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914B70A1F39906200F26363 /* CPCTransionAnim.swift */; };
+		F914B7121F39906200F26363 /* TransionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914B70B1F39906200F26363 /* TransionTool.swift */; };
+		F914B7131F39906200F26363 /* UIView+snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914B70C1F39906200F26363 /* UIView+snapshot.swift */; };
 		F95E17DC1F3962BD00A6DDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E17DB1F3962BD00A6DDF4 /* AppDelegate.swift */; };
 		F95E17DE1F3962BD00A6DDF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E17DD1F3962BD00A6DDF4 /* ViewController.swift */; };
 		F95E17E11F3962BD00A6DDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95E17DF1F3962BD00A6DDF4 /* Main.storyboard */; };
@@ -14,14 +21,7 @@
 		F95E17E61F3962BD00A6DDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95E17E41F3962BD00A6DDF4 /* LaunchScreen.storyboard */; };
 		F95E17F11F3962BD00A6DDF4 /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E17F01F3962BD00A6DDF4 /* demoTests.swift */; };
 		F95E17FC1F3962BE00A6DDF4 /* demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E17FB1F3962BE00A6DDF4 /* demoUITests.swift */; };
-		F95E18111F3962D800A6DDF4 /* CALayer+CPCTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E180A1F3962D800A6DDF4 /* CALayer+CPCTransition.swift */; };
-		F95E18131F3962D800A6DDF4 /* CPCBaseVCTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E180C1F3962D800A6DDF4 /* CPCBaseVCTransition.swift */; };
-		F95E18141F3962D800A6DDF4 /* CPCFlipTransion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E180D1F3962D800A6DDF4 /* CPCFlipTransion.swift */; };
-		F95E18151F3962D800A6DDF4 /* CPCPercentDriven.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E180E1F3962D800A6DDF4 /* CPCPercentDriven.swift */; };
-		F95E18161F3962D800A6DDF4 /* CPCTransionAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E180F1F3962D800A6DDF4 /* CPCTransionAnim.swift */; };
-		F95E18171F3962D800A6DDF4 /* UIView+snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E18101F3962D800A6DDF4 /* UIView+snapshot.swift */; };
 		F95E181E1F3962F600A6DDF4 /* UIColor+CPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E181B1F3962F600A6DDF4 /* UIColor+CPC.swift */; };
-		F95E18201F39887F00A6DDF4 /* TransionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E181F1F39887F00A6DDF4 /* TransionTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F914B7061F39906200F26363 /* CALayer+CPCTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+CPCTransition.swift"; sourceTree = "<group>"; };
+		F914B7071F39906200F26363 /* CPCBaseVCTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCBaseVCTransition.swift; sourceTree = "<group>"; };
+		F914B7081F39906200F26363 /* CPCFlipTransion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCFlipTransion.swift; sourceTree = "<group>"; };
+		F914B7091F39906200F26363 /* CPCPercentDriven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCPercentDriven.swift; sourceTree = "<group>"; };
+		F914B70A1F39906200F26363 /* CPCTransionAnim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCTransionAnim.swift; sourceTree = "<group>"; };
+		F914B70B1F39906200F26363 /* TransionTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransionTool.swift; sourceTree = "<group>"; };
+		F914B70C1F39906200F26363 /* UIView+snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+snapshot.swift"; sourceTree = "<group>"; };
 		F95E17D81F3962BD00A6DDF4 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95E17DB1F3962BD00A6DDF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F95E17DD1F3962BD00A6DDF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,14 +62,7 @@
 		F95E17F71F3962BE00A6DDF4 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95E17FB1F3962BE00A6DDF4 /* demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoUITests.swift; sourceTree = "<group>"; };
 		F95E17FD1F3962BE00A6DDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F95E180A1F3962D800A6DDF4 /* CALayer+CPCTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+CPCTransition.swift"; sourceTree = "<group>"; };
-		F95E180C1F3962D800A6DDF4 /* CPCBaseVCTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCBaseVCTransition.swift; sourceTree = "<group>"; };
-		F95E180D1F3962D800A6DDF4 /* CPCFlipTransion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCFlipTransion.swift; sourceTree = "<group>"; };
-		F95E180E1F3962D800A6DDF4 /* CPCPercentDriven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCPercentDriven.swift; sourceTree = "<group>"; };
-		F95E180F1F3962D800A6DDF4 /* CPCTransionAnim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCTransionAnim.swift; sourceTree = "<group>"; };
-		F95E18101F3962D800A6DDF4 /* UIView+snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+snapshot.swift"; sourceTree = "<group>"; };
 		F95E181B1F3962F600A6DDF4 /* UIColor+CPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CPC.swift"; sourceTree = "<group>"; };
-		F95E181F1F39887F00A6DDF4 /* TransionTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransionTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F914B7051F39906200F26363 /* TransionTool */ = {
+			isa = PBXGroup;
+			children = (
+				F914B7061F39906200F26363 /* CALayer+CPCTransition.swift */,
+				F914B7071F39906200F26363 /* CPCBaseVCTransition.swift */,
+				F914B7081F39906200F26363 /* CPCFlipTransion.swift */,
+				F914B7091F39906200F26363 /* CPCPercentDriven.swift */,
+				F914B70A1F39906200F26363 /* CPCTransionAnim.swift */,
+				F914B70B1F39906200F26363 /* TransionTool.swift */,
+				F914B70C1F39906200F26363 /* UIView+snapshot.swift */,
+			);
+			path = TransionTool;
+			sourceTree = "<group>";
+		};
 		F95E17CF1F3962BD00A6DDF4 = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +127,8 @@
 		F95E17DA1F3962BD00A6DDF4 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				F914B7051F39906200F26363 /* TransionTool */,
 				F95E18181F3962F600A6DDF4 /* other */,
-				F95E18091F3962D800A6DDF4 /* TransionTool */,
 				F95E17DB1F3962BD00A6DDF4 /* AppDelegate.swift */,
 				F95E17DD1F3962BD00A6DDF4 /* ViewController.swift */,
 				F95E17DF1F3962BD00A6DDF4 /* Main.storyboard */,
@@ -141,21 +155,6 @@
 				F95E17FD1F3962BE00A6DDF4 /* Info.plist */,
 			);
 			path = demoUITests;
-			sourceTree = "<group>";
-		};
-		F95E18091F3962D800A6DDF4 /* TransionTool */ = {
-			isa = PBXGroup;
-			children = (
-				F95E180A1F3962D800A6DDF4 /* CALayer+CPCTransition.swift */,
-				F95E180C1F3962D800A6DDF4 /* CPCBaseVCTransition.swift */,
-				F95E180D1F3962D800A6DDF4 /* CPCFlipTransion.swift */,
-				F95E180E1F3962D800A6DDF4 /* CPCPercentDriven.swift */,
-				F95E180F1F3962D800A6DDF4 /* CPCTransionAnim.swift */,
-				F95E18101F3962D800A6DDF4 /* UIView+snapshot.swift */,
-				F95E181F1F39887F00A6DDF4 /* TransionTool.swift */,
-			);
-			name = TransionTool;
-			path = animNav;
 			sourceTree = "<group>";
 		};
 		F95E18181F3962F600A6DDF4 /* other */ = {
@@ -304,15 +303,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95E17DE1F3962BD00A6DDF4 /* ViewController.swift in Sources */,
-				F95E18161F3962D800A6DDF4 /* CPCTransionAnim.swift in Sources */,
-				F95E18171F3962D800A6DDF4 /* UIView+snapshot.swift in Sources */,
-				F95E18111F3962D800A6DDF4 /* CALayer+CPCTransition.swift in Sources */,
+				F914B7111F39906200F26363 /* CPCTransionAnim.swift in Sources */,
+				F914B7131F39906200F26363 /* UIView+snapshot.swift in Sources */,
+				F914B7121F39906200F26363 /* TransionTool.swift in Sources */,
 				F95E181E1F3962F600A6DDF4 /* UIColor+CPC.swift in Sources */,
-				F95E18131F3962D800A6DDF4 /* CPCBaseVCTransition.swift in Sources */,
-				F95E18201F39887F00A6DDF4 /* TransionTool.swift in Sources */,
-				F95E18151F3962D800A6DDF4 /* CPCPercentDriven.swift in Sources */,
+				F914B70E1F39906200F26363 /* CPCBaseVCTransition.swift in Sources */,
+				F914B7101F39906200F26363 /* CPCPercentDriven.swift in Sources */,
 				F95E17DC1F3962BD00A6DDF4 /* AppDelegate.swift in Sources */,
-				F95E18141F3962D800A6DDF4 /* CPCFlipTransion.swift in Sources */,
+				F914B70D1F39906200F26363 /* CALayer+CPCTransition.swift in Sources */,
+				F914B70F1F39906200F26363 /* CPCFlipTransion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

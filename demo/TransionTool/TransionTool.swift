@@ -25,22 +25,17 @@ class TransionTool: NSObject,UINavigationControllerDelegate {
     func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         
         
-        
-        if let interactivePopGes = (fromVC as? UINavigationController)?.interactivePopGestureRecognizer as? UIPanGestureRecognizer {
-            
-            
-            let targetArr = interactivePopGes.value(forKey: "targets") as! [AnyObject]
-            let target = targetArr.last?.value(forKey: "target")
-            let sel = Selector(("handleNavigationTransition:"))
-            
-            //移除原来手势方法
-            interactivePopGes.removeTarget(target, action: sel)
-            
-            //添加自己的方法
-            percentDrivenTransition.vc = fromVC
-            percentDrivenTransition.gesture = interactivePopGes
-            
+        //移除系统手势
+        var interactivePopGes = toVC.navigationController?.interactivePopGestureRecognizer as? UIPanGestureRecognizer
+        if interactivePopGes != nil{
+            interactivePopGes = nil
         }
+        
+        //动画进度和 添加手势
+        percentDrivenTransition.vc = toVC
+        
+        
+        
         
         
         switch animType {

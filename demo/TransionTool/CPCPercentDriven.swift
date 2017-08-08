@@ -14,17 +14,23 @@ open class CPCPercentDriven: UIPercentDrivenInteractiveTransition {
     open var c_value:CPCPercentDriven?{
         return isInteracting ? self : nil
     }
-    open var gesture:UIPanGestureRecognizer? {
+    
+    open var vc: UIViewController?{
         didSet{
-            gesture?.addTarget(self, action: #selector(c_handleNavigationTransition))
+            
+            vc?.view.addGestureRecognizer(pan)
         }
     }
-    open var vc: UIViewController?
     
+    fileprivate lazy var pan : UIScreenEdgePanGestureRecognizer = {
+        let pan = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(c_handleNavigationTransition(pan:)))
+        pan.edges = .left
+        return pan 
+    }()
     fileprivate var isInteracting : Bool = false
     
     
-
+    
     
     
     

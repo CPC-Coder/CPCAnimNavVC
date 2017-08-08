@@ -25,9 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabC = UITabBarController()
         tabC.viewControllers = [nav,nav]
         
-        
-        
-        
         win.rootViewController = tabC
         window = win
         window?.makeKeyAndVisible()
